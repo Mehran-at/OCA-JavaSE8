@@ -1,6 +1,6 @@
 package com.oca.methods.eleven;
 
-public class Message {
+class Message {
 
     static void main(String[] args) {
 

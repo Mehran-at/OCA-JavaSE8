@@ -5,23 +5,23 @@ class Test {
     static int i2 = 20;
     int i1 = 10; //Line n1
 
-    private void change1(int val) {
-
-        i1 = ++val; //Line n1
-        i2 = val++; //Line n2
-    }
-
     private static void change2(int val) {
 
-//        i1 = --val; //Line n3
+//        i1 = --val; //Line n3. non-static variable cannot be accessed via static methods.
         i2 = val--; //Line n4
     }
 
     public static void main(String[] args) {
 
-//        change1(5); //Line n5
+//        change1(5); //Line n5. non-static methods cannot be accessed via static methods.
         change2(5); //Line n6
 //        System.out.println(i1 + i2); //Line n7
+    }
+
+    private void change1(int val) {
+
+        i1 = ++val; //Line n1
+        i2 = val++; //Line n2
     }
 }
 /*

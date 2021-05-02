@@ -7,7 +7,7 @@ class Report {
         return "CSV";
     }
 
-//    public Object generateReport() {
+//    public Object generateReport() { // generateReport()' is already defined
 //
 //        return "XLSX";
 //    }

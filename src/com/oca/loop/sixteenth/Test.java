@@ -1,6 +1,6 @@
 package com.oca.loop.sixteenth;
 
-public class Test {
+class Test {
 
     public static void main(String[] args) {
 
@@ -9,6 +9,11 @@ public class Test {
         while (flag) {
             System.out.println("YoYo!");
         }
+
+//        while (true) {
+//            System.out.println("LaLa!"); cause compilation error as compiler recognizes that the other loop wont let
+//            this to be executed.
+//        }
     }
 }
 /*

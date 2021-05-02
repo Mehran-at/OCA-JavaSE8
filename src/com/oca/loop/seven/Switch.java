@@ -1,6 +1,6 @@
 package com.oca.loop.seven;
 
-public class Switch {
+class Switch {
 
     public static void main(String[] args) {
 
@@ -10,12 +10,12 @@ public class Switch {
             switch (s) {
                 case "sat":
                 case "sun":
-                    wd -= 1;
+                    wd -= 1; // 4
                     break;
                 case "mon":
-                    wd++;
+                    wd++; //
                 case "wed":
-                    wd += 2;
+                    wd += 2;//
             }
             System.out.print(wd + " ");
         }

@@ -1,6 +1,6 @@
 package com.oca.methods.one;
 
-public class StaticMethod {
+class StaticMethod {
 
     public static void main(String[] args) {
         int var1 = 200;

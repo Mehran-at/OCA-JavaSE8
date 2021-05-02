@@ -1,6 +1,6 @@
 package com.oca.methods.twentyone;
 
-public class main {
+class main {
 
     static String main = "ONE";
 
@@ -11,7 +11,7 @@ public class main {
 
     public static void main(String[] args) {
 
-        main();
+        main(); // this will call method not the constructor
     }
 
     public static void main() {

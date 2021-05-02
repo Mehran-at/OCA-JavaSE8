@@ -1,6 +1,6 @@
 package com.oca.methods.fourteenth;
 
-public class Guest {
+class Guest {
 
     public static void main(String[] args) {
 

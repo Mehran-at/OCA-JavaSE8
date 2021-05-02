@@ -7,7 +7,7 @@ class Test {
         Report rep = new Report();
         String csv = rep.generateReport();
         Object xlsx = rep.generateReport();
-        System.out.println(csv + ":" + (String) xlsx);
+        System.out.println(csv + " : " + (String) xlsx);
     }
 }
 /*

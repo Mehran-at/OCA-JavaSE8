@@ -1,6 +1,6 @@
 package com.oca.methods.twentythree;
 
-public class Main {
+class Main {
 
     /* INSERT */
     public static final void main(String... a) {
@@ -9,41 +9,36 @@ public class Main {
     }
 }
 /*
-Below are the definitions of main method:
+    Below are the definitions of main method:
 
-1.
-
-public static final void main(String... a) {
-    System.out.println("Java Rocks!");
-}
-
-
-2.
-
-public void main(String... args) {
-    System.out.println("Java Rocks!");
-}
+    1.
+    public static final void main(String... a) {
+        System.out.println("Java Rocks!");
+    }
 
 
-3.
-
-static void main(String [] args) {
-    System.out.println("Java Rocks!");
-}
-
-
-4.
-
-public static void main(String [] args) {
-    System.out.println("Java Rocks!");
-}
+    2.
+    public void main(String... args) {
+        System.out.println("Java Rocks!");
+    }
 
 
-5.
+    3.
+    static void main(String [] args) {
+        System.out.println("Java Rocks!");
+    }
 
-public static void main(String args) {
-    System.out.println("Java Rocks!");
-}
+
+    4.
+    public static void main(String [] args) {
+        System.out.println("Java Rocks!");
+    }
+
+
+    5.
+    public static void main(String args) {
+        System.out.println("Java Rocks!");
+    }
  */
 /*
     Special main method (called by JVM on execution) should be static and should have public access modifier. It also

@@ -1,10 +1,10 @@
 package com.oca.loop.ten;
 
-public class Test {
+class Test {
 
     public static void main(String[] args) {
 
-        Object[] arr = new Object[4];
+        Object[] arr = new Object[4];// [null,null,null,null]
         for (int i = 1 ; i <= 3 ; i++) {
             switch (i) {
                 case 1:
@@ -24,21 +24,24 @@ public class Test {
     }
 }
 /*
-Variable 'arr' refers to an Object array of size 4 and null is assigned to all 4 elements of this array.
+    Variable 'arr' refers to an Object array of size 4 and null is assigned to all 4 elements of this array.
 
-for-loop starts with i = 1, which means at 1st index String instance is stored, at 2nd index StringBuiler instance is stored and at 3rd index SpecialString instance is stored. null is stored at 0th index.
+    for-loop starts with i = 1, which means at 1st index String instance is stored, at 2nd index StringBuilder instance
+    is stored and at 3rd index SpecialString instance is stored. null is stored at 0th index.
 
-So, first null will be printed on to the console.
+    So, first null will be printed on to the console.
 
-String and StringBuilder classes override toString() method, which prints the text stored in these classes. SpecialString class doesn't override toString() method and hence when instance of SpecialString is printed on to the console, you get: <fully qualified name of SpecialString class>@<hexadecimal representation of hashcode>.
+    String and StringBuilder classes override toString() method, which prints the text stored in these classes.
+    SpecialString class doesn't override toString() method and hence when instance of SpecialString is printed on to the
+    console, you get: <fully qualified name of SpecialString class>@<hexadecimal representation of hashcode>.
 
-Therefore output will be:
+    Therefore output will be:
 
-null
+    null
 
-Java
+    Java
 
-Java
+    Java
 
-<Some text containing @ symbol>
+    <Some text containing @ symbol>
  */

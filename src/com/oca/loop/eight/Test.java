@@ -1,12 +1,12 @@
 package com.oca.loop.eight;
 
-public class Test {
+class Test {
 
     public static void main(String[] args) {
 
         do {
-            System.out.println(100);
-//        } while (true);
+            System.out.println("Good");
+//        } while (true); // cause compiler error as code status on line 11 will be unreachable.
         } while (false);
         System.out.println("Bye");
     }

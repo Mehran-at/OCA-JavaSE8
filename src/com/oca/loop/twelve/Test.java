@@ -1,6 +1,6 @@
 package com.oca.loop.twelve;
 
-public class Test {
+class Test {
 
     public static void main(String[] args) {
 

@@ -1,6 +1,6 @@
 package com.oca.methods.twelve;
 
-public class Test {
+class Test {
 
     static {
         System.out.println(1 / 0);

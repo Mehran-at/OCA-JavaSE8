@@ -1,7 +1,7 @@
 package com.oca.methods.fifteenth;
 
 //private class Test
-public class Test
+class Test
 {
 
     public static void main(String args[]) {

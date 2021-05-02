@@ -1,6 +1,6 @@
 package com.oca.loop.ten;
 
-public class SpecialString {
+class SpecialString {
 
     String str;
 

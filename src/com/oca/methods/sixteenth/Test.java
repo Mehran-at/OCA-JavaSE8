@@ -1,8 +1,9 @@
 package com.oca.methods.sixteenth;
 
-public class Test {
+class Test {
 
     public static void main(String[] args) {
+
 //        private int i = 100;
 //        private int j = 200;
         int i = 100;

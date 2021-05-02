@@ -1,13 +1,28 @@
 package com.oca.objectequality.seven;
 
-public class Main {
+class Main {
 
     public static void main(String[] args) {
 
-        boolean flag1 = "Java" == "Java".replace('J', 'J'); //Line n1
-        boolean flag2 = "Java" == "Java".replace("J", "J"); //Line n2
-        System.out.println(flag1 && flag2);
+        boolean flag1 = "Java" == "Java".replace('J', 'J'); //Line n1 replace(char oldChar, char newChar)
+        boolean flag11 = "Java" == "Java".replace('J', 'V'); //Line n1 replace(char oldChar, char newChar)
+        boolean flag111 = "Java" == "Java".replace('M', 'J'); //Line n1 replace(char oldChar, char newChar)
 
+        boolean flag2 = "Java" == "Java".replace("J", "J"); //Line n2 replace(String oldString, String newString)
+        boolean flag22 = "Java" == "Java".replace("J", "V"); //Line n2 replace(String oldString, String newString)
+        boolean flag222 = "Java" == "Java".replace("M", "J"); //Line n2 replace(String oldString, String newString)
+
+        System.out.println(flag1); // true
+        System.out.println(flag11); // false
+        System.out.println(flag111); // true
+        System.out.println(flag2); // false
+        System.out.println(flag22); // false
+        System.out.println(flag222); // true
+        System.out.println(flag1 && flag2); // false
+        System.out.println(flag11 && flag22); // false
+        System.out.println(flag111 && flag222); // true
+
+        System.out.println("---------------------");
         boolean f1 = true;
         boolean f2 = true;
         boolean f3 = false;

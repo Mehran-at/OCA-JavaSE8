@@ -1,6 +1,6 @@
 package com.oca.loop.twentyfour;
 
-public class Main {
+class Main {
 
     public static void main(String[] args) {
 
@@ -29,5 +29,5 @@ public class Main {
         System.out.println(k);
     }
 }
-    // The reason this code does not give compile error of unreachable code for like 30 is, break A; at line 20 breaks
-    // out the flow of the loop to the loop A and from the k will be printed.
+// The reason this code does not give compile error of unreachable code for like 30 is, break A; at line 20 breaks
+// out the flow of the loop to the loop A and from the k will be printed.

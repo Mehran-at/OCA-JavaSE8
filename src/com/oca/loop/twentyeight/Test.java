@@ -1,11 +1,15 @@
 package com.oca.loop.twentyeight;
 
 class Test {
+
     public static void main(String[] args) {
-        outer: for(int i = 0; i < 3; System.out.print(i)) {
+
+        outer:
+        for (int i = 0 ; i < 3 ; System.out.print(i)) {
             i++;
-            inner: for(int j = 0; j < 3; System.out.print(j)) {
-                if(i > ++j) {
+            inner:
+            for (int j = 0 ; j < 3 ; System.out.print(j)) {
+                if (i > ++j) {
                     break outer;
                 }
             }

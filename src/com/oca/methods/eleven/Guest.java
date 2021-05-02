@@ -1,8 +1,9 @@
 package com.oca.methods.eleven;
 
-public class Guest {
+class Guest {
 
-    public static void main(String [] args) {
+    public static void main(String[] args) {
+
         Message.main(args);
     }
 
